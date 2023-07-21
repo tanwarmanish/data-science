@@ -27,3 +27,63 @@ print(user_input)
 print(<obj1>, <obj2>, <obj3>, ..., sep="-",end="\n")
 # obj1-obj2-obj3... <Next Line>
 ```
+
+
+<hr>
+
+#### Data Types
+
+##### 1. Number
+``` python
+print(8)
+# 1*10^308
+print(1e309)
+```
+
+##### 2. Decimal/Float
+``` python
+print(8.55)
+print(1.7e309)
+```
+
+##### 3. Boolean
+``` python
+print(True)
+print(False)
+```
+
+##### 4. String
+``` python
+print("Hello World")
+```
+
+##### 5. Complex
+``` python
+print(5+6j)
+```
+
+##### 6. List
+``` python
+print([1,2,3,4,5,6])
+```
+
+##### 7. Tuple
+``` python
+print((1,2,3,4,5,6))
+```
+
+##### 8. Sets
+``` python
+print({1,2,3,4,5})
+```
+
+##### 9. Dictionary
+``` python
+print({'name':'Manish Tanwar', id:101})
+```
+
+
+
+
+
+
