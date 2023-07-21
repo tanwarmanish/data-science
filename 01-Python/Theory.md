@@ -137,9 +137,10 @@ a = b = c = 5
 
 <hr>
 
+# Timestamp : 1:17min
 ##### Keywords & Identifiers
 - Reserved words are called keywords eg for, if etc.
-- 
+
 
 
 
