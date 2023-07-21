@@ -135,6 +135,11 @@ a = b = c = 5
 # ```
 ```
 
+<hr>
+
+##### Keywords & Identifiers
+- Reserved words are called keywords eg for, if etc.
+- 
 
 
 
