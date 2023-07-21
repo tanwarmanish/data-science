@@ -89,7 +89,30 @@ a = True
 type(a) # returns Boolean 
 ```
 
+<hr>
 
+``` python
+
+# Dynamic Typing
+a = 5
+
+# Static Typeing
+int a = 5;
+
+```
+
+``` python
+
+# Dynamic Binding
+a = 5
+print(a)
+a = "Manish"
+print(a)
+
+# Static Binding
+int a = 5
+# cant be changed to some other variable now
+```
 
 
 
