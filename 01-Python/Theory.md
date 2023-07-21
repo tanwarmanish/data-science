@@ -114,6 +114,14 @@ int a = 5
 # cant be changed to some other variable now
 ```
 
+``` python
+
+a,b,c = 1,2,3
+
+a = b = c = 5
+```
+
+
 
 
 
