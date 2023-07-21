@@ -122,7 +122,18 @@ a = b = c = 5
 ```
 
 
+##### Comments
+``` python
 
+# single line comment
+
+# ```
+ Mutli 
+ line 
+ comment
+ Ignore the # here
+# ```
+```
 
 
 
