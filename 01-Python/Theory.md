@@ -83,6 +83,11 @@ print({'name':'Manish Tanwar', id:101})
 ```
 
 
+##### type
+``` python
+a = True
+type(a) # returns Boolean 
+```
 
 
 
