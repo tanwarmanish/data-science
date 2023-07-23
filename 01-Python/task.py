@@ -1,4 +1,4 @@
-run = "ques1"
+run = "ques2"
 
 
 """
@@ -22,6 +22,9 @@ if run=="ques1":
     
 
 
-
+# Q2:- Write a program that will convert celsius value to fahrenheit.
 if run=="ques2":
-    
+    # (0°C × 9/5) + 32 = 32°F
+		temperatureF = 33;
+		temperatureC = (temperatureF*9)/5 + 32
+		print(temperatureC)
