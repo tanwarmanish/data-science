@@ -1,7 +1,7 @@
 import math
 
 
-run = "ques5"
+run = "ques6"
 
 
 """
@@ -63,3 +63,9 @@ if run=="ques5":
   timePeriod = int(input("Enter time period: "))
   simpleInterest = (principle * roi * timePeriod)/100
   print(simpleInterest,simpleInterest+principle)
+
+
+# Q6:- Write a program that will tell the number of dogs and chicken are there 
+# when the user will provide the value of total heads and legs.
+# For example: Input: heads -> 4 legs -> 12
+# Output: dogs -> 2 chicken -> 2
