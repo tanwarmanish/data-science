@@ -1,7 +1,7 @@
 import math
 
 
-run = "ques4"
+run = "ques5"
 
 
 """
@@ -53,3 +53,13 @@ if run=="ques4":
   x2,y2 = [int(x) for x in input("Enter second coordinate: ").split(" ")]
   distance = math.sqrt((x2-x1)**2 + (y2-y1)**2)
   print(distance)
+
+
+# Ques 5 Write a program to find the simple interest 
+# when the value of principle,rate of interest and time period is provided by the user.
+if run=="ques5": 
+  principle = int(input("Enter principle amount: "))
+  roi = int(input("Enter rate of interest: "))
+  timePeriod = int(input("Enter time period: "))
+  simpleInterest = (principle * roi * timePeriod)/100
+  print(simpleInterest,simpleInterest+principle)
