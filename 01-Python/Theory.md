@@ -140,7 +140,7 @@ a = b = c = 5
 # Timestamp : 1:17min
 
 ##### Keywords & Identifiers
-- Reserved words are called keywords eg for, if etc.
+- Reserved words are called keywords e.g. for, if etc.
 
 
 
