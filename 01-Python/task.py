@@ -102,7 +102,7 @@ if run=="ques8":
 # Q9:- Given 2 fractions, find the sum of those 2 fractions.
 # Take the numerator and denominator values of the fractions from the user.
 if run=="ques9":
-     firstN,firstD = [int(x) for x in input("Enter first fraction: ").split(" ")]
-     secondN,secondD = [int(x) for x in input("Enter second fraction: ").split(" ")]
-     total = firstN/firstD + secondN/secondD
-     print(total)
+    firstN,firstD = [int(x) for x in input("Enter first fraction: ").split(" ")]
+    secondN,secondD = [int(x) for x in input("Enter second fraction: ").split(" ")]
+    total = firstN/firstD + secondN/secondD
+    print(total)
