@@ -106,3 +106,19 @@ if run=="ques9":
     secondN,secondD = [int(x) for x in input("Enter second fraction: ").split(" ")]
     total = firstN/firstD + secondN/secondD
     print(total)
+
+
+#Q10:- Given the height, width and breadth of a milk tank, 
+# you have to find out how many glasses of milk can be obtained? 
+# Assume all the inputs are provided by the user.
+#Input:
+#Dimensions of the milk tank
+#H = 20cm, L = 20cm, B = 20cm
+#Dimensions of the glass
+#h = 3cm, r = 1cm
+if run=="ques10":
+    H,L,B = [int(x) for x in input("Enter dimensions of tank: ").split(" ")]
+    h,r = [int(x) for x in input("Enter dimensions of glass: ").split(" ")]
+    volumnTank = H*L*B
+    volumnGlass = h*r*r
+    print(volumnTank/volumnGlass)
