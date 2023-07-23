@@ -148,6 +148,88 @@ a = b = c = 5
 	- Only lowercase, uppercase, digits and "_"  can be used.
 	- Cannot be keywords
 
+<hr>
+
+##### Input
+``` python
+# Static vs Dynamic
+input("Message Here")
+
+value = input("Input Here...")
+# all inputs are in string
+# need to be converted explicitly
+```
+
+##### Type Conversion
+- Two types :
+	- Implicit Type Conversion ( Done automatically by Python )
+	- Explicit Type Conversion ( Done by user )
+
+##### Explicit Type Conversion
+``` python
+# int
+int("4.5")
+#4
+
+# float
+float(4)
+# 4.0
+
+```
+
+
+##### Literals
+- Value stored in a variable is called literal.
+``` python
+a = 0b1010 # binary literal
+b = 100    # decimal literal
+c = 0o310  # octal literal
+d = 0x12   # hexadecimal literal
+e = 3.14j  # complex literal
+
+
+# float literal
+f = 10.5
+g = 1.5e2  # 1.5 * 10^2
+h = 1.5e-3 # 1.5 * 10^(-3)
+
+# complex literal
+i = 2 + 5j
+print(i.real, i.imag) # (2, 5)
+```
+
+##### Strings
+``` python
+string1 = 'This is Python'
+string2 = "This is Python"
+char = "C"
+multilineString = """ This is a multiline string """
+unicode = u"U0001f600"
+rawString = r"Raw \t String"
+```
+
+
+``` python
+# Misc
+
+a = True + 4   # 5
+b = False + 10 # 10
+```
+
+##### None
+- Similar to null in javascript.
+- Python don't allow us to declare a variable without initialising it.
+
+``` 
+# It is a special type
+# Similar to null in javascript
+# It means variable type is nothing
+a = None
+
+a # var
+```
+
+
 
  
 
