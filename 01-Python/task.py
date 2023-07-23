@@ -1,3 +1,6 @@
+import math
+
+
 run = "ques4"
 
 
@@ -41,3 +44,12 @@ if run=="ques3":
     number2 = number1
     number1 = number3
     print([number1,number2])
+
+
+# Q4:- Write a program to find the euclidean distance between two coordinates.
+# Take both the coordinates from the user as input.
+if run=="ques4":
+  x1,y1 = [int(x) for x in input("Enter first coordinate: ").split(" ")]
+  x2,y2 = [int(x) for x in input("Enter second coordinate: ").split(" ")]
+  distance = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+  print(distance)
