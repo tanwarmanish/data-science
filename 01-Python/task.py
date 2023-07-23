@@ -70,12 +70,15 @@ if run=="ques5":
 # For example: Input: heads -> 4 legs -> 12
 # Output: dogs -> 2 chicken -> 2
 if run=="ques6":
-      heads = int(input("Enter number of heads: "))
-      legs = int(input("Enter number of legs: "))
-      dogs = min(heads,int(legs/4))
-      heads -= dogs
-      legs -= dogs*4
-      chicken = min(heads,int(legs/2))
-      print(f"Dogs :{dogs}, Chicken: {chicken}")
+      heads = 4
+      legs = 12
+      print(legs/4)
+      # heads = int(input("Enter number of heads: "))
+      # legs = int(input("Enter number of legs: "))
+      # dogs = min(heads,int(legs/4))
+      # heads -= dogs
+      # legs -= dogs*4
+      # chicken = min(heads,int(legs/2))
+      # print(f"Dogs :{dogs}, Chicken: {chicken}")
 
             
