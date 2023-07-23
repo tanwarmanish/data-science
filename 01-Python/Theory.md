@@ -225,8 +225,7 @@ b = False + 10 # 10
 # Similar to null in javascript
 # It means variable type is nothing
 a = None
-
-a # var
+a # var cannot be declared like this
 ```
 
 
