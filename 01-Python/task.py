@@ -1,4 +1,4 @@
-run = "ques3"
+run = "ques4"
 
 
 """
@@ -35,5 +35,9 @@ Q3:- Take 2 numbers as input from the user.
 Write a program to swap the numbers without using any special python syntax.
 """
 if run=="ques3":
-    number1 = input("Enter first number: ")
-    number2 = input("Enter second number: ")
+    number1 = int(input("Enter first number: "))
+    number2 = int(input("Enter second number: "))
+    number3 = number2
+    number2 = number1
+    number1 = number3
+    print([number1,number2])
