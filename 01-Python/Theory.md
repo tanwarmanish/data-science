@@ -137,10 +137,19 @@ a = b = c = 5
 
 <hr>
 
-# Timestamp : 1:17min
-
-##### Keywords & Identifiers
+##### Keywords
 - Reserved words are called keywords e.g. for, if etc.
+- Keywords should not be used as an Identifier
+
+##### Identifiers
+- Variable, function & class names are called identifiers
+- Rules:
+	- Should not start with a digit
+	- Only lowercase, uppercase, digits and "_"  can be used.
+	- Cannot be keywords
+
+
+ 
 
 
 

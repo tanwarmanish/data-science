@@ -4,7 +4,7 @@
   "interfaceFontFamily": "Microsoft Sans Serif",
   "textFontFamily": "Cascadia Code",
   "monospaceFontFamily": "Cascadia Mono",
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "translucency": false,
   "nativeMenus": true,
   "showViewHeader": true
