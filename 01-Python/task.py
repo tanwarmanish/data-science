@@ -1,8 +1,7 @@
 import math
 
 
-run = "ques6"
-
+run = "ques7"
 
 """
 ### Q1 :- Print the given strings as per stated format.
@@ -79,4 +78,11 @@ if run=="ques6":
       print(f"Dogs:{dogs}, Chicken:{chicken}")
         
 
-            
+# Ques 7: Write a program to find the sum of squares of first n natural numbers 
+# where n will be provided by the user.     
+if run=="ques7":
+  number = int(input("Enter a number: "))
+  total = 0
+  for i in range(1,number):
+       total += i**2
+  print(total)
