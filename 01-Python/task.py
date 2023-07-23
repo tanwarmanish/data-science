@@ -72,13 +72,14 @@ if run=="ques5":
 if run=="ques6":
       heads = 4
       legs = 12
-      print(legs/4)
-      # heads = int(input("Enter number of heads: "))
-      # legs = int(input("Enter number of legs: "))
-      # dogs = min(heads,int(legs/4))
-      # heads -= dogs
-      # legs -= dogs*4
-      # chicken = min(heads,int(legs/2))
-      # print(f"Dogs :{dogs}, Chicken: {chicken}")
+      chicken = heads
+      dogs = 0
+      legs -= chicken*2
+      while(legs!=0):
+        dogs+=1
+        chicken-=1
+        legs -= 2
+      print(f"Dogs:{dogs}, Chicken:{chicken}")
+        
 
             
