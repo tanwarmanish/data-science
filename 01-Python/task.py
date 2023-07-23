@@ -71,14 +71,11 @@ if run=="ques5":
 # Output: dogs -> 2 chicken -> 2
 if run=="ques6":
       heads = 4
-      legs = 12
+      legs = 18
       chicken = heads
-      dogs = 0
       legs -= chicken*2
-      while(legs!=0):
-        dogs+=1
-        chicken-=1
-        legs -= 2
+      dogs = int(legs/2)
+      chicken -= dogs
       print(f"Dogs:{dogs}, Chicken:{chicken}")
         
 
