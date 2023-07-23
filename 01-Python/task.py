@@ -69,3 +69,13 @@ if run=="ques5":
 # when the user will provide the value of total heads and legs.
 # For example: Input: heads -> 4 legs -> 12
 # Output: dogs -> 2 chicken -> 2
+if run=="ques6":
+      heads = int(input("Enter number of heads: "))
+      legs = int(input("Enter number of legs: "))
+      dogs = min(heads,int(legs/4))
+      heads -= dogs
+      legs -= dogs*4
+      chicken = min(heads,int(legs/2))
+      print(f"Dogs :{dogs}, Chicken: {chicken}")
+
+            
