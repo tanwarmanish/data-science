@@ -1,7 +1,7 @@
 import math
 
 
-run = "ques7"
+run = "ques9"
 
 """
 ### Q1 :- Print the given strings as per stated format.
@@ -86,3 +86,14 @@ if run=="ques7":
   for i in range(1,number):
        total += i**2
   print(total)
+
+
+ # Ques 8: Given the first 2 terms of an Arithmetic Series.
+ # Find the Nth term of the series. Assume all inputs are provided by the user
+if run=="ques8":
+  first = int(input("Enter first term: "))
+  second = int(input("Enter second term: "))
+  n = int(input("Enter term to calculate: "))
+  d = second-first
+  termN = first + (n-1)*d
+  print(termN)
