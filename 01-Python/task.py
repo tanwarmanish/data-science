@@ -104,4 +104,5 @@ if run=="ques8":
 if run=="ques9":
      firstN,firstD = [int(x) for x in input("Enter first fraction: ").split(" ")]
      secondN,secondD = [int(x) for x in input("Enter second fraction: ").split(" ")]
-     print(firstN,firstD)
+     total = firstN/firstD + secondN/secondD
+     print(total)
