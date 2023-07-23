@@ -1,7 +1,7 @@
 import math
 
 
-run = "ques9"
+run = "ques10"
 
 """
 ### Q1 :- Print the given strings as per stated format.
@@ -120,5 +120,5 @@ if run=="ques10":
     H,L,B = [int(x) for x in input("Enter dimensions of tank: ").split(" ")]
     h,r = [int(x) for x in input("Enter dimensions of glass: ").split(" ")]
     volumnTank = H*L*B
-    volumnGlass = h*r*r
-    print(volumnTank/volumnGlass)
+    volumnGlass = math.ceil(math.pi*h*r*r)
+    print(volumnTank//volumnGlass)
